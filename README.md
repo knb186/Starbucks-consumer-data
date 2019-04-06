@@ -1,4 +1,6 @@
-In this project, I analyzed the consumer behavior data from Starbucks. I used the pandas, numpy, math, json, matplotlib, and sklearn libraries.
+In this project, I analyzed the consumer behavior data from Starbucks. I used the pandas, numpy, math, json, matplotlib, and sklearn libraries. The motivation of the project was to determine whether certain patterns existed between the demographics of consumers and their willingness to take up offers from Starbucks.
 
 In this repository, the starbucks_capstone.ipynb file includes my work. The profile.json, portfolio.json and transcript.json files
-are the data I worked on
+are the data I worked on. In particular, the profile.json file included information on the age of the customer, date of account creation, gender, customer id and customer income. The portfolio.json file included information on the type of the offer, minimum spending required, reward, and the length the offer was open for, amongst others. The transcript.json file included the event type, customer id, time in hours since the start of the test, and the value.
+
+My results showed, amongst others, that wealthier individuals were somewhat more likely to complete an offer. I also came to the conclusion that consumers were more likely to complete offers that were longer, gave larger rewards and required greater minimum spending. Linear regression models, however, failed to determine that the variance in value of an offer could be explained by consumer income.
